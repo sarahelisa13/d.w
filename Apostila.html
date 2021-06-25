@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+ <body>
+     <nav>
+         <link rel="stylesheet" href="apostila.css">
+         <link rel = "preconnect" href = "https://fonts.googleapis.com">
+     <h1> Apostila JavaScript</h1>
+     <p>Alunas: Sarah Elisa Cavalheiro Franco e Thayla Aparecida de Oliveira da Silva.</p>
+     <h3>Sumário</h3>
+     <p>  I. O que é JavaScript? 
+    <p> II. Origem do JavaScript</p>
+    <p> III. Principais características do JavaScript </p>
+    <p>IV. Encapsulamento</p>
+     <p> V. Vantagens do Encapsulamento</p>
+     <p> VI. Modificadores de Acesso</p>
+     <p>VII. Estrutura de dados do Javascript</p>
+     <p>Referências</p>
+     <h2>O que é JavaScript?</h2>
+     <img width="180px" height="180px" src="https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png" alt="">
+     <p>JavaScript é uma linguagem de programação de alto nível criada, a princípio, para ser executada em navegadores e manipular comportamentos de páginas web.</p>
+     <p>Segundo a Mozilla Foundation, atual nome da antiga Netscape Communications Corporations, empresa responsável pela criação do JS, <b> “JavaScript é uma linguagem de programação, leve, interpretada, orientada a objetos, baseada em protótipos e em first-class functions (funções de primeira classe), mais conhecida como a linguagem de script da Internet.“</b></p>
+    <p>Com seus scripts é possível incluir, em uma página estática, elementos dinâmicos como mapas, formulários, operações numéricas, animações, infográficos interativos e muito mais.</p>
+    <p>O JavaScript é uma das mais importantes tecnologias voltadas para o front-end e, unindo-se ao trio HTML, CSS e PHP, formam um grupo de linguagens que abrangem praticamente todas as exigências do desenvolvimento de uma página completa, dinâmica e com boa performance.</p>
+    <p>Do final dos anos 90 até meados dos anos 2000, o JS ganhou grande popularidade ao ser utilizado por grandes empresas para a construção de seus sites, como o Facebook, por exemplo.</p>
+    
+    <h2 >Origem JavaScript</h2>
+    <p>Concebido como uma linguagem do lado do servidor por Brendan Eich (então empregado pela Netscape Corporation), o JavaScript logo chegou ao Netscape Navigator 2.0 em setembro de 1995. O JavaScript obteve sucesso imediato e o Internet Explorer 3.0 (en-US) introduziu o suporte ao JavaScript sob o nome JScript em agosto de 1996.</p>
+    <p>Em novembro de 1996, a Netscape começou a trabalhar com a ECMA International para tornar o JavaScript um padrão do setor. Desde então, o JavaScript padronizado é chamado de ECMAScript e especificado sob a ECMA-262, cuja última edição (décima primeira, ES2020) está disponível desde junho de 2020.</p>
+   <p> Recentemente, a popularidade do JavaScript se expandiu ainda mais através do bem-sucedido Node.js, o interpretador multiplataforma mais popular de ambiente de execução JavaScript fora do navegador. Node.js foi criado utilizando o V8 Javascript Engine permitindo que os desenvolvedores utilizem o JavaScript como linguagem de script para automatizar as coisas em um PC e criar servidores HTTP e WebSocket (en-US) totalmente funcionais.</p>
+    
+   <h2>Principais características do JavaScript</h2>
+   <ul>
+    <li> Exerce controle sobre o HTML e o CSS para manipular comportamentos de páginas web.</li>
+    <li> É independente de plataforma</li>
+    <li> Permite a criação de funcionalidades para sites que não podem ser criadas com HTML e CSS.</li>
+    <li> O código escrito em Javascript é embutido no próprio arquivo HTML (basta que o programador utilize a tag script no momento de escrever as linhas em Javascript. </li>
+    <li>Utiliza uma sintaxe familiar, para quem já utiliza Java, C, ou C++.</li>
+    <li>Seu modelo de objetos é baseado em protótipos (e não em classes, como é o caso do Java).</li>
+    <li>Suporta funções sem requisições especiais de declaração.</li>
+    <li>É um tipo de programação dirigida por eventos: possibilita a criação de trechos de programa que respondem a eventos específicos, tais como um clique em um botão.</li>
+
+</ul>
+    <h2>Encapsulamento</h2>
+    <p>Encapsulament é a técnica que faz com que detalhes internos do funcionamento dos métodos de uma classe permaneçam ocultos para os objetos. Por conta dessa técnica, o conhecimento a respeito da implementação interna da classe é desnecessário do ponto de vista do objeto, uma vez que isso passa a ser responsabilidade dos métodos internos da classe.</p>
+  <p>Assim que uma classe é criada, seu código e seus dados, os quais são chamados de membros da classe, são determinados. Esses dados recebem o nome de variáveis membro ou variáveis de instância. Já o código tem outra função de formar os métodos, os quais também podem ser denominados como métodos membro.</p>
+    <ul>
+        <li>Tudo o que o usuário externo precisa conhecer a respeito de uma classe encontra-se em propriedades ou métodos declarados como públicos (public).</li>
+        <li>Somente os códigos membros da classe são capazes de acessar seus métodos e variáveis privados. Isso garante que não ocorrerão ações inadequadas, mas exige que a interface pública seja planejada com cautela para que o funcionamento interno da classe não seja muito exposto.</li>
+    </ul>
+    <h2>Vantagens do Encapsulamento</h2>
+    <ul>
+       <li> O objeto é disponibilizado ao usuário com toda a sua funcionalidade, sem a necessidade de conhecermos seu funcionamento ou armazenamento interno;</li>
+        <li>É possível modificar um objeto internamente, acrescentando métodos, sem que isto afete os outros componentes do sistema que utilizam o objeto modificado;</li>
+        <li>O processo de desenvolvimento de sistemas é acelerado e simplificado, já que os usuários dos objetos não precisam necessariamente saber como eles são constituídos internamente;</li>
+        <li>A implementação de um comportamento pode ser modificada radicalmente sem que haja impacto no resto do programa. Isto é possível porque o código que utiliza o objeto não depende da maneira que ele é implementado.</li>
+    </ul>
+    <h2>Modificadores de Acesso</h2>
+    <img width="180px" height="200px"  src="https://lh3.googleusercontent.com/edKjxeAt1dq54iKRLKdYvB0QfiIBZPSUZZ6mQaX0YBxxLQN2gyvGHpXSkaFsLtF3XqfP21oWYyUa0f_5Dow_A0htZcw117m6VborzXUFwTGQZFtHerhsNaPmF00d1js6F0YiSg" alt="">
+    <p><b>Modificadores de acesso</b> são as palavras-chave usadas para especificar a acessibilidade da declaração de um membro ou um tipo. São aplicáveis a atributos, classes, métodos, Structs, interfaces e enumeradores. Temos cinco níveis de acessibilidade especificados aos modificadores de acesso. Vejamos cada um, em uma situação hipotética, usando-os em classes:</p>
+  <ul>
+      <li>Public: Com este modificador, o acesso é livre em qualquer lugar do programa.</li>
+      <li>Private: Com este modificador, o acesso é permitido somente dentro da classe onde ele foi declarado. Por padrão, é a visibilidade definida para métodos e atributos em uma classe.</li>
+    <li>Protected: Com este modificador, apenas a classe que contém o modificador e os tipos derivados dessa classe tem o acesso.</li>
+   <li>Internal: Com este modificador, o acesso é limitado apenas ao assembly atual.</li>
+   <li>Protected Internal: Com este modificador, o acesso é limitado ao assembly atual e aos tipos derivados da classe que contém o modificador.</li>
+</ul>
+<h2>Estrutura de dados do Javascript</h2>
+<p>JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não necessita declarar o tipo de uma variável antes de sua atribuição. O tipo será automaticamente determinado quando o programa for processado. Isso também significa que você pode reatribuir uma mesma variável com um tipo diferente:</p>
+   <h3>Tipos de dados</h3>
+   <i> Sete tipos de dados são:  <b> primitives: Todos os tipos, com a exceção de objetos, definem valores imutáveis (valores que são incapazes de mudar). Por exemplo e diferentemente da linguagem C, Strings são imutáveis. Nós nos referimos a valores desse tipo como "valores primitivos".</b> </i> 
+<hr>
+<ul>
+
+<p>Boolean - Boolean representa uma entidade lógica e pode ter dois valores: verdadeiro(true) ou falso(false). </p>
+<hr>
+
+<p> Null - O tipo Null tem exatamente um valor: null(nulo). <p></p>
+<hr>
+
+<p> Undefined - Uma variável que não foi atribuída a um valor específico, assume o valor undefined(indefinido). </p>
+
+<hr>
+
+ <p>  Number - O objeto JavaScript Number é um objeto encapsulado que permite você trabalhar com valores numéricos. Um objeto Number é criado utilizando o construtor Number().
+    Não existe um tipo específico para inteiros. Além de poderem representar números de ponto-flutuante, o tipo number possui três valores simbólicos: +Infinity, -Infinity, e NaN (não numérico).</p>
+    
+
+<hr>
+
+<p> BigInt - No JavaScript , BigInt é um tipo de dado numérico que representa inteiros no formato de precisão arbritrária. Em outras linguagens de programação, existem tipos numéricos diferentes, como por exemplo: Integers, Floats, Doubles ou Bignums.</li>
+</p>
+    <hr>
+
+<p> String - Em qualquer linguagem de programação, uma string é uma sequência de caracteres usados para representar texto
+  Em JavaScript, uma String é um dos valores primitivos e o objeto String é um wrapper em cima do tipo primitivo string.
+  Diferente de linguagens como C, strings em JavaScript são imutáveis. Isto significa que: uma vez criada a string, não é possível modificá-la. Entretanto, ainda é possível criar outra string baseada em um operador na string original. Por exemplo:
+
+  Uma substring da original a partir de letras individuais ou usando String.substr().
+  Uma concatenação de duas strings usando o operador (+) ou String.concat(). </p>
+<hr>
+
+<p>Symbol - O tipo de dados "symbol" é qualificado como um primitivo, onde valores desse tipo podem ser usados para fazer propriedades de objetos anônimos. Ele pode ser usado como chave de uma propriedade de objeto quando este tem a intenção de ser privada, para uso interno da classe ou do tipo do objeto em questão.  </p>
+<hr>
+
+<p> Object - Objeto refere-se a uma estrutura de dados contendo dados e instruções para se trabalhar com estes dados. Objetos algumas vezes se referem a coisas do mundo real, por exemplo um objeto de carro ou um mapa em um jogo de corrida. JavaScript, Java, C++, Python, e Ruby são exemplos de Linguagens orientadas à objeto.
+</p>
+<p> <a href="exemplos.html"><button> Clique aqui para ver o exemplo de cada um!</button></a> </p>
+</ul>
+<hr>
+
+<h2>Referências</h2>
+<p>O que é JavaScript?</p>  "https://kenzie.com.br/blog/javascript/"></p>
+<p>Origem do JavaScript</p> https://developer.mozilla.org/pt-BR/docs/Glossary/JavaScript</p>
+<p>Principais características do javascript</p> https://www.portalgsti.com.br/javascript/sobre/ </p>
+<p>Encapsulamento e Vantagens</p> https://www.devmedia.com.br/conceitos-encapsulamento-programacao-orientada-a-objetos/18702 </p>
+<p>Modificadores de Acesso</p> https://www.devmedia.com.br/modificadores-de-acesso-estrutura-da-linguagem/18697 </p>
+<P>Estrutura de dados do Javascript</P>https://ricardo-reis.medium.com/tipos-de-dados-javascript-a1f6f498a7d4 </p>
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures </p>
+<script>
+</script>
+</nav>
+
+</body>
+<style>
+    nav{
+        background-color: #95a5a6;
+    }
+    
+
+    i{
+        font-size: 20px;
+    }
+    button{
+        background-color: #bdc3c7;
+		border: 0;
+		border-radius: 13px;
+		font-size: large;
+	}
+	button:hover{
+		color: white;
+		background-color: #bdc9c9;
+		cursor: pointer;
+	}
+    
+    
+</style>
+</html>
