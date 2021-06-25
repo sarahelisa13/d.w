@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE = edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário de contato</title>
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+<h2 class="p-10"> Formulário de Contato</h2>
+
+<form class="p-10">
+	<div class="p-10">
+		<label>Nome:</label>
+		<input type="text" class="p-10" placeholder="Insira seu nome aqui" name="" required="">
+	</div>
+
+	<div class="p-10">
+		<label>Sobrenome:</label>
+		<input type="text" class="p-10" placeholder="Insira seu sobrenome aqui"  name="" required="">
+	</div>
+
+	<div class="p-10">
+		<label>Email:</label>
+		<input type="Email" class="p-10" placeholder="seuemail@Email.com" name="" required="">
+	</div>
+
+	<div class="p-10">
+		<label>Senha: </label>
+		<input type="password" class="p-10" placeholder="Insira sua senha" name="" required="">
+	</div>
+	 	
+	<div class="p-10">
+		<label>Idade:</label>
+		<input type="Number" class="p-10" placeholder="Somente valores númericos" min="16" name="" required="">
+	</div>
+
+	<div class="p-10">
+		<label>Gênero</label>
+		<input type="radio" class="p-10"  name="sexo" value="mas"/>Masculino
+		<input type="radio" class="p-10" name="sexo" value="fem"/>Feminino
+		<input type="radio" class="p-10" name="sexo" value="out"/>Outro
+	</div>
+	
+	<div class="p-10">
+		<label>Deseja receber notificações de promoções e ofertas por e-mail?</label>
+		<input type="radio" class= "p-10" name="opção" value="Sim" required="">Sim
+		<input type="radio" class= "p-10" name="opção" value="Não">Não
+	</div>
+
+	 <div class="p-10" >
+	 	<label> Com o que podemos ajudar?</label>
+	 	<input type="checkbox" class="p-10" name="opção" value="Compras">Cancelar compras
+	 	<input type="checkbox" class="p-10" name="opção" value="Compras">Pagar compras
+	 	<input type="checkbox" class="p-10" name="opção" value="Compras">Devolução de produtos
+	 	<input type="checkbox" class="p-10" name="opção" value="Compras">Reembolso
+	 	<input type="checkbox" class="p-10" name="opção" value="Compras">Gerenciar vendas
+	 	 </div>
+
+	
+	
+	<div class="p-10"> 
+		<button class="p-10"> Enviar</button>
+	</div>
+	
+</form>
+
+</body>
+<!-- CSS abaixo -->
+
+<style type="text/css">
+	/*IDENTIFICADOR {
+		NOME_REGRA_CSS: Valor;
+		NOME_REGRA_CSS: Valor;
+	}*/
+	button{
+		background-color: #bdc3c7;
+		border: 0;
+		border-radius: 13px;
+		font-size: large;
+	}
+	button:hover{
+		color: white;
+		background-color: #bdc9c9;
+		cursor: pointer;
+	}
+	
+
+	</style>
+</html>

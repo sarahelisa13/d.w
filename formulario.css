@@ -1,0 +1,25 @@
+h2 {
+	background-color:#fff200;
+	color: white;
+	text-align: center;
+}
+.p-10{
+	padding: 10px;
+}
+
+form{
+	background-color: lightgray;
+}
+label{
+	display: block;
+}
+input, select{
+	border: 0.3px solid;
+	border-radius: 2px;
+	width: 50%;
+	box-sizing: border-box;
+}
+div{
+	margin-left: 33%;
+
+}
